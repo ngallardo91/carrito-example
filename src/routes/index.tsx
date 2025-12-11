@@ -16,7 +16,7 @@ function HomeComponent() {
           Nuevo en la tienda
         </Badge>
         <h1 className="text-5xl font-bold tracking-tight mb-4">
-          Bienvenido a Mi Tienda
+          Mi Tienda Online 
         </h1>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
           Descubre los mejores productos al mejor precio con envío gratis y garantía de calidad
