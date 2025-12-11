@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from '@tanstack/react-router';
 import { useQuery } from '@tanstack/react-query';
 import { productsApi } from '../../services/api';
-import { Card, CardContent, CardHeader, CardTitle } from '../../components/ui/card';
+import { Card, CardHeader, CardTitle } from '../../components/ui/card';
 import { Skeleton } from '../../components/ui/skeleton';
 import { Badge } from '../../components/ui/badge';
 import { Package2, Shirt, Gem, Laptop } from 'lucide-react';
