@@ -9,6 +9,11 @@ export const Route = createFileRoute('/')({
 });
 
 function HomeComponent() {
+
+  const apiURL = import.meta.env.VITE_API_URL;
+
+  console.log('API URL:', apiURL);
+
   return (
     <div className="text-center py-16 space-y-16">
       <div className="space-y-6">
